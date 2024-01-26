@@ -28,7 +28,20 @@ let authenticated = true;
 //ternery
 let bottonText = authenticated === true ? "Dashboard" : "Login";
 
+// switch case:
 
+let role = "guest"
+
+switch (role) {
+    case "guest":
+        console.log("Guest user");
+        break;
+    case "admin":
+        console.log("Admin user");
+        break
+    default:
+        console.log("Unknown user!");
+}
 
 
 
