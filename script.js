@@ -49,5 +49,20 @@ for (let index = 0; index < 10; index++) {
     console.log(index);
 }
 
+const colors = ['red', 'green', 'blue']
 
+for(let color of colors){
+    console.log(color);
+}
 
+// Factory function
+
+function createCircle(radius){
+    return {
+        radius,
+        draw(){console.log('draw')}
+    }
+}
+
+let circle1 = createCircle(1);
+console.log(circle1)
