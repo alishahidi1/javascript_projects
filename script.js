@@ -103,4 +103,13 @@ let first = [1,2,3];
 let sec = [4,5,6];
 
 let res = [...first, ...sec];
-console.log(res)
+console.log(res);
+
+//Iteration in arrays
+res.forEach(num=>console.log(num));
+res.forEach((num,i)=>console.log(i,num));
+
+joined = res.join('*')
+console.log(joined)
+
+
