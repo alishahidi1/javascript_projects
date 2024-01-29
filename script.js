@@ -74,3 +74,14 @@ console.log(msg.length)
 
 let txt = "A message is written here."
 console.log(txt.split(' '))
+
+txt = `Hello ${Name} !!`;
+console.log(txt)
+
+const nums = [3,4];
+nums.push(5,6)
+console.log(nums)
+nums.unshift(5)
+console.log(nums)
+nums.splice(2,1,"a")
+console.log(nums)
