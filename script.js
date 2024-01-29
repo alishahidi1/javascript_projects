@@ -83,5 +83,24 @@ nums.push(5,6)
 console.log(nums)
 nums.unshift(5)
 console.log(nums)
-nums.splice(2,1,"a")
+nums.splice(2,0,"a")
 console.log(nums)
+
+//Find elements in arrays
+console.log(nums.indexOf(4))
+
+//Remove elements:
+nums.pop()
+console.log(nums)
+nums.shift()
+console.log(nums)
+
+//Combine elements:
+const cmb = nums.concat([1,2,3])
+console.log(cmb)
+
+let first = [1,2,3];
+let sec = [4,5,6];
+
+let res = [...first, ...sec];
+console.log(res)
