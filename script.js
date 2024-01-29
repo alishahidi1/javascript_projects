@@ -66,3 +66,11 @@ function createCircle(radius){
 
 let circle1 = createCircle(1);
 console.log(circle1)
+
+//string primitive
+const msg = "Ali";
+
+console.log(msg.length)
+
+let txt = "A message is written here."
+console.log(txt.split(' '))
